@@ -1,0 +1,1113 @@
+@font-face {
+    font-family: '1-Bold';
+    src: url("../fonts/Kanit-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'LexendDeca';
+    src: url("../fonts/LexendDeca-VariableFont_wght.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+    height: auto;
+    background: #FFF;
+}
+
+.header {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 511px;
+    margin-bottom: 35px;
+}
+
+.header_group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 58px;
+}
+
+.menyu {
+    display: none;
+}
+
+.logojon {
+    max-width: 107.817px;
+    height: 28.56px;
+    fill: #495567;
+}
+
+.nav_ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    gap: 32px;
+}
+
+.link {
+    color: #939CAA;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    text-decoration: none;
+    font-family: '1-Bold';
+}
+
+.link:hover {
+    color: #FCB72B;
+}
+
+.nav_btn {
+    width: 180px;
+    height: 53px;
+    background: #FCB72B;
+    border: transparent;
+    color: #FFF;
+    text-align: center;
+    font-family: '1-Bold';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    transition: 0.5s;
+}
+
+.nav_btn:hover {
+    cursor: pointer;
+    background: #FFF;
+    color: #FCB72B;
+    border: 3px solid #FCB72B;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 1100px) {
+    .header {
+        gap: 210px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .header {
+        gap: 90px;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .header {
+        gap: 30px;
+    }
+
+    .nav_ul {
+        display: none;
+    }
+
+    .menyu {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .header_group {
+        gap: 0px;
+    }
+
+    .menyu {
+        margin-left: 32px;
+        margin-right: 60px;
+    }
+
+    .nav_btn {
+        display: none;
+    }
+
+    .logojon {
+        margin-right: 100px;
+    }
+}
+
+/* header tugadi */
+
+.main {
+    background-image: url(../images/Bitmap.jpg);
+    max-width: 1440px;
+    height: 650px;
+    flex-shrink: 0;
+    background-size: cover;
+    margin-bottom: 160px;
+}
+
+.main_text {
+    max-width: 600px;
+    color: #FFF;
+    font-family: '1-Bold';
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    padding-bottom: 40px;
+    padding-top: 153px;
+    padding-left: 165px;
+
+}
+
+.group_box {
+    display: flex;
+}
+
+.lineya {
+    width: 203px;
+    height: 14px;
+    background: #FCB72B;
+    margin-top: 50px;
+    margin-right: 57px;
+}
+
+.main_text_2 {
+    max-width: 360px;
+    color: #FFF;
+    font-family: 'LexendDeca';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-right: 40px;
+}
+
+.main_text_22 {
+    max-width: 360px;
+    color: #FFF;
+    font-family: 'LexendDeca';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-right: 40px;
+}
+
+.main_text_22 {
+    display: none;
+}
+
+.box_img {
+    width: 447px;
+    height: 138px;
+    margin-top: 45px;
+}
+
+.main_btn {
+    width: 180px;
+    height: 53px;
+    flex-shrink: 0;
+    background: #FCB72B;
+    border: transparent;
+    color: #FFF;
+    text-align: center;
+    font-family: '1-Bold';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    margin-left: 260px;
+}
+
+.main_btn:hover {
+    cursor: pointer;
+    background: #FFF;
+    color: #FCB72B;
+    border: 3px solid #FCB72B;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 1140px) {
+    .main {
+        max-width: 100vw;
+    }
+
+    .lineya {
+        width: 183px;
+
+    }
+
+    .box_img {
+        width: 400px;
+        height: 118px;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 40px;
+        height: 600px;
+    }
+
+    .main_text {
+        padding-top: 0px;
+        text-align: center;
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+
+    .group_box {
+        display: none;
+    }
+
+    .main_btn {
+        margin-left: 0px;
+    }
+
+    .main_text_22 {
+        max-width: 500px;
+        margin-right: 0px;
+        display: block;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .main_text {
+        font-size: 40px;
+        max-width: 310px;
+    }
+
+    .main_text_22 {
+        max-width: 310px;
+        height: auto;
+    }
+
+}
+
+
+/* main tugadi */
+
+.section {
+    margin-bottom: 200px;
+}
+
+.lineya_2 {
+    width: 974px;
+    height: 10px;
+    background-color: #E5ECF4;
+}
+
+.images_group {
+    display: flex;
+    gap: 284px;
+    margin-top: -55px;
+    margin-left: 165px;
+}
+
+.images_group_card {
+    width: 96px;
+    height: 96px;
+    flex-shrink: 0;
+}
+
+.images_group_card_2 {
+    width: 96px;
+    height: 96px;
+    display: none;
+}
+
+.section_text_group {
+    display: flex;
+    gap: 30px;
+    margin-left: 165px;
+    margin-top: 40px;
+    margin-bottom: 180px;
+}
+
+.Locate {
+    max-width: 350px;
+    color: #495567;
+    font-family: '1-Bold';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.071px;
+    margin-bottom: 30px;
+}
+
+.Use {
+    max-width: 350px;
+    color: #939CAA;
+    font-family: 'LexendDeca';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.Pick {
+    max-width: 350px;
+    color: #495567;
+    font-family: '1-Bold';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 30px;
+    letter-spacing: -1.071px;
+}
+
+.We {
+    max-width: 350px;
+    color: #939CAA;
+    font-family: 'LexendDeca';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.Enjoy {
+    max-width: 350px;
+    color: #495567;
+    font-family: '1-Bold';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.071px;
+    margin-bottom: 30px;
+}
+
+.Scan {
+    max-width: 350px;
+    color: #939CAA;
+    font-family: 'LexendDeca';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+@media only screen and (max-width: 1280px) {
+    .lineya_2 {
+        width: 900px;
+    }
+
+    .images_group {
+        margin-left: 50px;
+    }
+
+    .section_text_group {
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 1130px) {
+    .section {
+        display: flex;
+    }
+
+    .section_group {
+        display: flex;
+    }
+
+    .lineya_2 {
+        width: 10px;
+        height: 550px;
+        margin-left: 140px;
+    }
+
+    .images_group {
+        flex-direction: column;
+        margin-top: 0px;
+        margin-left: -55px;
+        gap: 74px;
+        margin-top: 122px;
+
+    }
+
+    .section_text_group {
+        flex-direction: column;
+        margin-top: 122px;
+    }
+
+    .main {
+        margin-bottom: 0px;
+    }
+
+    .Locate {
+        max-width: 398px;
+    }
+
+    .Use {
+        max-width: 398px;
+        margin-bottom: 10px;
+    }
+
+    .Pick {
+        max-width: 398px;
+
+    }
+
+    .We {
+        max-width: 398px;
+        margin-bottom: 10px;
+    }
+
+    .Enjoy {
+        max-width: 398px;
+
+    }
+
+    .Scan {
+        max-width: 398px;
+
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .images_group_card_2 {
+        display: block;
+    }
+
+    .section {
+        margin-bottom: 20px;
+    }
+
+    .lineya_2 {
+        display: none;
+    }
+
+    .section_text_group {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 5px;
+        margin-bottom: 40px;
+    }
+
+    .images_group {
+        display: none;
+    }
+
+    .section_text_group_card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 24px;
+    }
+
+    .Locate {
+        margin-bottom: 0px;
+        max-width: 310px;
+    }
+
+    .Pick {
+        margin-bottom: 0px;
+        max-width: 310px;
+    }
+
+    .Enjoy {
+        margin-bottom: 0px;
+        max-width: 310px;
+    }
+
+    .Use {
+        max-width: 310px;
+    }
+
+    .We {
+        max-width: 310px;
+    }
+
+    .Scan {
+        max-width: 310px;
+    }
+}
+
+
+/* section tugadi */
+
+.section_2 {
+    margin-bottom: 60px;
+}
+
+.row_group {
+    display: flex;
+    margin-left: 165px;
+    margin-bottom: 160px;
+}
+
+.right_img {
+    width: 445px;
+    height: 445px;
+    border-radius: 445px;
+    background: #D8D8D8;
+    display: none;
+}
+
+.right_img_2 {
+    width: 445px;
+    height: 445px;
+    border-radius: 445px;
+    background: #D8D8D8;
+    margin-left: 220px;
+}
+
+.section_2_left {
+    margin-top: 66px;
+}
+
+.left_Easy {
+    max-width: 445px;
+    color: #495567;
+    font-family: '1-Bold';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+    margin-bottom: 24px;
+}
+
+.left_The {
+    max-width: 445px;
+    color: #939CAA;
+    font-family: 'LexendDeca';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+.section_btn {
+    width: 180px;
+    height: 53px;
+    border: transparent;
+    background: #FCB72B;
+    color: #FFF;
+    text-align: center;
+    font-family: '1-Bold';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    transition: 0.5s;
+}
+
+.section_btn:hover {
+    cursor: pointer;
+    color: #FCB72B;
+    background: #FFF;
+    border: 3px solid #FCB72B;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 1280px) {
+    .right_img_2 {
+        margin-left: 80px;
+    }
+}
+
+@media only screen and (max-width: 1145px) {
+    .row_group {
+        margin-left: 50px;
+    }
+
+    .right_img_2 {
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .right_img {
+        display: block;
+    }
+
+    .right_img_2 {
+        display: none;
+    }
+
+    .row_group {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+    }
+
+    .section_2_left {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .right_img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .left_Easy {
+        font-size: 32px;
+        max-width: 305px;
+    }
+
+    .left_The {
+        max-width: 305px;
+    }
+
+    .row_group {
+        margin-left: 5px;
+    }
+}
+
+/* .section_2 tugadi */
+
+
+.section_3_group {
+    display: flex;
+}
+
+.img_left {
+    width: 445px;
+    height: 445px;
+    border-radius: 445px;
+    background: #D8D8D8;
+    margin-left: 165px;
+}
+
+.section_3_right {
+    margin-top: 66px;
+    margin-left: 220px;
+}
+
+.right_text {
+    max-width: 405px;
+    color: #495567;
+    font-family: '1-Bold';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+    margin-bottom: 24px;
+}
+
+.right_text_2 {
+    width: 445px;
+    color: #939CAA;
+    font-family: 'LexendDeca';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+.section_3_btn {
+    width: 180px;
+    height: 53px;
+    border: transparent;
+    background: #FCB72B;
+    color: #FFF;
+    text-align: center;
+    font-family: '1-Bold';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    transition: 0.5s;
+}
+
+.section_3_btn:hover {
+    cursor: pointer;
+    color: #FCB72B;
+    background: #FFF;
+    border: 3px solid #FCB72B;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 1280px) {
+    .section_3_right {
+        margin-left: 80px;
+    }
+}
+
+@media only screen and (max-width: 1145px) {
+    .img_left {
+        margin-left: 50px;
+    }
+
+    .section_3_right {
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+
+    .section_3_group {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .img_left {
+        margin-left: 0px;
+    }
+
+    .section_3_right {
+        text-align: center;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .img_left {
+        width: 300px;
+        height: 300px;
+    }
+
+    .right_text {
+        max-width: 300px;
+        font-size: 32px;
+    }
+
+    .right_text_2 {
+        max-width: 305px;
+    }
+
+    .section_3_right {
+        margin-left: 7px;
+    }
+}
+
+/* .section_3 tugadi */
+
+
+.section_4_group {
+    display: flex;
+    margin-top: 140px;
+    margin-left: 165px;
+}
+
+.img_two {
+    width: 445px;
+    height: 445px;
+    border-radius: 445px;
+    background: #E5ECF4;
+    display: none;
+}
+
+.img_two_2 {
+    width: 445px;
+    height: 445px;
+    border-radius: 445px;
+    background: #E5ECF4;
+    margin-left: 220px;
+}
+
+.Zero_row {
+    margin-top: 66px;
+}
+
+.hassle {
+    max-width: 425px;
+    color: #495567;
+    font-family: '1-Bold';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+    margin-bottom: 24px;
+}
+
+.payment {
+    max-width: 445px;
+    color: #939CAA;
+    font-family: 'LexendDeca';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+.btn_two {
+    width: 180px;
+    height: 53px;
+    border: transparent;
+    background: #FCB72B;
+    color: #FFF;
+    text-align: center;
+    font-family: '1-Bold';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    transition: 0.5s;
+}
+
+.btn_two:hover {
+    cursor: pointer;
+    color: #FCB72B;
+    background: #FFF;
+    border: 3px solid #FCB72B;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 1280px) {
+    .img_two_2 {
+        margin-left: 80px;
+    }
+}
+
+@media only screen and (max-width: 1145px) {
+    .section_4_group {
+        margin-left: 50px;
+    }
+
+    .img_two_2 {
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .section_4_group {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .img_two_2 {
+        display: none;
+    }
+
+    .img_two {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .img_two {
+        width: 300px;
+        height: 300px;
+        margin-left: 0px;
+    }
+
+    .hassle {
+        max-width: 300px;
+        font-size: 32px;
+    }
+
+    .payment {
+        max-width: 310px;
+    }
+
+    .section_4_group {
+        margin-left: 5px;
+    }
+}
+
+/* section_4 tugadi */
+
+
+.footer_group {
+    max-width: 1440px;
+    height: 300px;
+    background-image: url(../images/Mask.png);
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.Sign_up {
+    max-width: 405px;
+    color: #FFF;
+    font-size: 48px;
+    font-family: '1-Bold';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+    margin-left: 165px;
+}
+
+.foter_img {
+    display: flex;
+    gap: 20px;
+    margin-left: 336px;
+}
+
+.footer_bottom {
+    max-width: 1440px;
+    height: 96px;
+    background: #333A44;
+    display: flex;
+    align-items: center;
+    gap: 571px;
+}
+
+.bottom_group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 58px;
+    margin-left: 166px;
+
+}
+
+.footer_logo {
+    width: 107.817px;
+    height: 28.56px;
+    fill: #FFF;
+}
+
+.footer_ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    gap: 32px;
+}
+
+.link_2 {
+    color: #939CAA;
+    font-family: '1-Bold';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.bottom_images {
+    display: flex;
+    gap: 24px;
+}
+
+.bottom_images_1 {
+    width: 24px;
+    height: 24px;
+}
+
+.bottom_images_2 {
+    width: 24px;
+    height: 24px;
+}
+
+.bottom_images_3 {
+    width: 24px;
+    height: 24px;
+}
+
+.aplle {
+    width: 182px;
+    height: 56px;
+}
+
+@media only screen and (max-width: 1280px) {
+    .foter_img {
+        margin-left: 200px;
+    }
+
+    .footer_bottom {
+        gap: 300px;
+    }
+}
+
+@media only screen and (max-width: 1145px) {
+    .foter_img {
+        margin-left: 50px;
+    }
+
+    .footer_bottom {
+        gap: 150px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .bottom_group {
+        margin-left: 40px;
+    }
+
+    .footer_group {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .Sign_up {
+        max-width: 457px;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 715px) {
+    .Sign_up {
+        max-width: 300px;
+        font-size: 32px;
+    }
+
+    .footer_group {
+        text-align: center;
+    }
+
+    .foter_img {
+        margin-left: 0px;
+    }
+
+    .aplle {
+        width: 130px;
+        height: 40px;
+    }
+
+    .footer_bottom {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+
+    }
+
+    .bottom_group {
+        margin-top: 20px;
+        flex-direction: column;
+        gap: 30px;
+        margin-left: 0px;
+    }
+
+    .footer_ul {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .bottom_images {
+        margin-bottom: 20px;
+    }
+
+}
